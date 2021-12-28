@@ -1,20 +1,20 @@
 # gdx_bodycam
 
-Script na bodycam pro PD
+Script for bodycam for PD
 
-Funkce:
-- Jednoduché UI
-- Použití na item
-- Nasazení propu na postavu (nutno upravit podle vašeho eupu)
-- Pípání bodycamu, pokud je aktivní
+Features:
+- Simple UI
+- Use per item
+- Putting a pass on a character (must be adjusted to your eup)
+- Beeping bodycam if active
 
-Instalace:
-- Vložte gdx_bodycam do resources
-- Importujte "item.sql" do databáze
-- Do server.cfg vložte "ensure gdx_bodycam"
-- Upravte číslo oblečení v client.lua na řádku 193, 195, 204 a 206
+Installation:
+- Insert gdx_bodycam into resources
+- Import "item.sql" into the database
+- Insert "ensure gdx_bodycam" into server.cfg
+- Edit the outfit number in client.lua on line 193, 195, 204 and 206
 
-Požadavky:
+Requirements:
 - es_extended
 - skinchanger
 - InteractSound
